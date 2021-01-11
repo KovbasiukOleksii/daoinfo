@@ -1,0 +1,38 @@
+#pref_info {
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+#pref_info h2 {
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+#pref_info h3 {
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+#pref_info img {
+	float: right;
+	clear: both;
+	width: 500px;
+	margin-left: 50px;
+}
+
+#pref_info p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+#pref_info p b {
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 460px) {
+	#pref_info img {
+		width: 100%;
+	}
+}

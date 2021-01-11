@@ -1,0 +1,122 @@
+#daoservice_info {
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+#daoservice_info h2 {
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+#daoservice_info img {
+	float: right;
+	margin-left: 60px;
+	margin-top: -25px;
+	margin-bottom: 35px;
+	clear: both;
+	width: 600px;
+}
+
+#daoservice_info p {
+	font-size: 14px;
+	margin-bottom: 35px;
+}
+
+#daoservice_info p b {
+	font-size: 14px;
+}
+
+#daoservice_info p.link {
+	margin-bottom: 80px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#daoservice_info p.link a {
+	font-size: 22px;
+}
+
+#daoservice_info .act {
+	display: flex;
+	justify-content: space-between;
+}
+
+#daoservice_info .act .act_item {
+	width: 350px;
+	padding: 10px;
+	border: 1px solid #ABB0BB;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+#daoservice_info .act .act_item:hover {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#daoservice_info .act .act_item a {
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#daoservice_info .act .act_item a span {
+	display: block;
+	text-transform: none;
+	margin-top: 5px;
+	color: #333333;
+}
+
+#daoservice_info .act .act_item img {
+	width: 8px;
+	position: absolute;
+	top: 37px;
+	right: 10px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#daoservice_info .act .act_item a:hover img {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+/* adaptive */ 
+
+@media only screen and (max-width: 1024px) {
+	#daoservice_info .act .act_item {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#daoservice_info .act {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#daoservice_info .act .act_item {
+		width: 350px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	#daoservice_info img {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#daoservice_info p.link {
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+}

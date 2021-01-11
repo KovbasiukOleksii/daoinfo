@@ -1,0 +1,73 @@
+#users {
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+#users h2 {
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#users h3 {
+	font-size: 22px;
+}
+
+#users img {
+	float: right;
+	weight: 500px;
+	margin-left: 60px;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#users img.imgtwo {
+	margin-top: -100px;
+}
+
+#users .buyer_info,
+#users .plant_info,
+#users .handling,
+#users .track {
+	margin-top: 30px;
+}
+
+#users .transport_agent {
+	clear: both;
+}
+
+#users p {
+	margin: 15px 0 15px 0;
+	font-size: 14px;
+}
+
+#users p a,
+#users p b {
+	font-size: 14px;
+}
+
+#users .buyer_info h4 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 30px 0;
+}
+
+#users .buyer_info ul {
+	list-style: none;
+}
+
+#users .buyer_info ul li {
+	font-size: 14px;
+}
+
+/* adaptive */ 
+
+@media only screen and (max-width: 460px) {
+	#users img {
+		width: 100%;
+	}
+
+	#users img.imgtwo {
+		margin-top: 20px;
+	}
+}
